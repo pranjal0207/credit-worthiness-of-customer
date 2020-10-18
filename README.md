@@ -43,17 +43,17 @@ This will open the iPython Notebook software and project file in your browser.
 
 To identify the creditworthy applicants, we performed the following steps:
 
-- **Step 1: Preprocessing**
+  **Step 1: Preprocessing**
   - Removed certain collumns either due to low variability or no logical connection with the target.
   - Cleaned data of ambiguous data values in some rows.
   - Split the data into training and testing sets with `train_test_split()` 
   
-- **Step 2: Data Visualization**
+  **Step 2: Data Visualization**
   - Calculating the target (Default) percentage (Yes, No).
   - Describing the data for mean, median, etc for all individual collumns.
   - Graphically Representing the dependency of various collumns on target (Default).
 
-- **Step 3: Creating a Training and Predicting Pipeline**
+  **Step 3: Creating a Training and Predicting Pipeline**
   - Initialized and fit classification models:
     - `LogicalRegression()`
     - `DecisionTreeClassifier()`
@@ -62,6 +62,6 @@ To identify the creditworthy applicants, we performed the following steps:
   - Implemented `DecisionTreeClassifier()` on standardized data and obtained a confusion matrix along with the accuracy.  
   - Implemented `RandomForestClassifier()` on standardized data and improved the result by employing Hyperparameterization via `RandomSearchCV()` for the following parameters `n_estimators`, `max_features` and `max_depth` and obtained a confusion matrix along with the accuracy.
   
-- **Step 3: Comparison of Model Performance**
+  **Step 4: Comparison of Model Performance**
   - Plotted a Receiver operating characteristic (ROC) Curve to predict which model is better distinguishing between positive and negative class  
   - K-fold Cross Validation was implemented to check which model provided the least bias and avoided overfitting of data
