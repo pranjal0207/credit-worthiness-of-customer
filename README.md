@@ -55,10 +55,10 @@ To identify the creditworthy applicants, we performed the following steps:
 
   **Step 3: Creating a Training and Predicting Pipeline**
   - Initialized and fit classification models:
-    - `LogicalRegression()`
+    - `LogisticRegression()`
     - `DecisionTreeClassifier()`
     - `RandomForestClassifier()`
-  - Implemented `LogicalRegression()` on Original Data, Standardized Data and Data obtained post Recursive Feature Elimination and obtained a confusion matrix for along with the respective accuracy
+  - Implemented `LogisticRegression()` on Original Data, Standardized Data and Data obtained post Recursive Feature Elimination and obtained a confusion matrix for along with the respective accuracy
   - Implemented `DecisionTreeClassifier()` on standardized data and obtained a confusion matrix along with the accuracy.  
   - Implemented `RandomForestClassifier()` on standardized data and improved the result by employing Hyperparameterization via `RandomSearchCV()` for the following parameters `n_estimators`, `max_features` and `max_depth` and obtained a confusion matrix along with the accuracy.
   
