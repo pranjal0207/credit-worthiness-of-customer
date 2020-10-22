@@ -17,6 +17,8 @@
 You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
 ## Description
+Credit risk management remains a significant challenge for banks given the inefficient data management, limited view of risk measures, lack of risk assessment tools, and less than intuitive visualization process into the borrowers’ ability to pay back. A thorough assessment of the borrowers’ capability and complete understanding of loan loss reserve is crucial to managing credit risk exposure and mitigating losses. In this scenario, traditional scorecards by themselves are no longer enough to determine credit lending.
+This project compares the performances of few algorithms to determine the credit worthiness of customers. The dataset that has been used in this project contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005. The 3 machine learning algorithms used in this project are Logistic Regression, Decision Tree Classification, and Random Forest Classification. For comparison of the performances of these models, ROC Curve and Cross Validation Accuracy has been used.
 
 ## Data 
 `default of credit card clients.xls` - This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
